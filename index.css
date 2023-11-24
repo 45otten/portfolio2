@@ -105,11 +105,11 @@ ul{
     display: inline-block;
     white-space: nowrap;
     border-radius: 40px;
-    transition:0.2s ease-in;
+    transition:0.3s ease-in;
+    border: 3px solid var(--skin-color);
 }
 .btn:hover{
     background-color: var(--bg-black-900);
-    border: 3px solid var(--skin-color);
     color: var(--skin-color);
 }
 
@@ -343,6 +343,74 @@ h3.my-pro{
 .about .about-content .prsnl-info .info-item p span{
     font-weight: 400;
     color: var(--text-black-700);
+    /* margin-left: 4px; */
+    display: inline-block;
+}
+.about .about-content .prsnl-info .buttons{
+    margin-top:30px;
+}
+.about .about-content .prsnl-info .buttons .btn{
+    margin: 10px 15px 0 0;
+}
+
+.about .about-content .skills .skill-item{
+    flex:0 0 100%;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+.about .about-content .skills .skill-item h5{
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+}
+.about .about-content .skills .skill-item .progress{
+    background-color: var(--bg-black-50);
+    height: 7px;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+}
+.about .about-content .skills .skill-item .progress .progress-in{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: var(--skin-color);
+    border-radius: 4px;
+}
+.about .about-content .skills .skill-item .skills-percent{
+    position:absolute;
+    right: 0;
+    color: var(--text-black-900);
+    top: -40px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.about .about-content .edu,
+.about .about-content .exp{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 30px;
+}
+.about .about-content h3.title{
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: var(--text-black-900);
+}
+.about .about-content .timeline-box{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.about .about-content .timeline{
+    background-color: var(--bg-black-100);
+    padding: 30px 15px;
+    border: 1px solid var(--bg-black-50);
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
 }
 
 
