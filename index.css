@@ -517,16 +517,17 @@ h3.my-pro{
     border: 2px solid var(--skin-color);
     border-radius: 15px;
     padding: 20px;
-    margin: 0 0 10px 1px !important;
+    margin: 0 0 10px 10px !important;
 }
 .service .service-item i{
     color: var(--skin-color);
 }
 .service .service-item{
     margin:0 30px 0;
-    flex: 0 0 50%;
-    max-width: 50%;
+    flex: 0 0 30%;
+    max-width: 30%;
     box-shadow: 0 0 5px var(--skin-color);
+    
 }
 
 @media (max-width:991px){
