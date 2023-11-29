@@ -51,9 +51,9 @@ ul{
     overflow-x: hidden;
     
 }
-.hidden{
+/* .hidden{
     display: none !important;
-}
+} */
 .main-content{
     padding-left: 270px;
     /* border: 2px solid red; */
