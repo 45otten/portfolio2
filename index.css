@@ -41,11 +41,14 @@ ul{
     display:block;
     padding: 0 30px;
     opacity: 1;
-    /* position: fixed;
+    position: fixed;
     left: 270px;
     top: 0;
     right: 0;
-    z-index: 0; */
+    z-index: 0;
+    bottom: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
     
 }
 /* .hidden{
@@ -89,6 +92,22 @@ ul{
     top: 100%;
     left: 0;
     /* margin-top:8px; */
+}
+.section.active{
+    z-index: 2;
+    opacity: 1;
+    animation: slideSection 1s ease;
+}
+.section.back-section{
+    z-index: 1;
+}
+@keyframes slideSection{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
 }
 .section-title h2::after{
     content: '';
@@ -308,6 +327,7 @@ h3.my-pro{
 }
 .home .home-img img{
     height: 400px;
+    max-width: 60%;
     margin: auto;
     border-radius: 5px;
 }
@@ -483,6 +503,11 @@ h3.my-pro{
     .about .about-content .prsnl-info .info-item p span{
         display: block;
         margin-left: 0;
+    }
+    .section{
+    left:0;
+    right: 0;
+    width: 100%;
     }
 }
 @media (max-width:991px){

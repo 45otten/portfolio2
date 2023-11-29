@@ -52,22 +52,27 @@
     display: inline-block;
     height: 30px;
     width: 30px;
-    border:1px solid var(--skin-color);
+    /* border:2px solid #000; */
     border-radius: 50%;
     cursor: pointer;
 }
 .style-switcher .color-1{
-    background: #f021b2;
+    background:rgb(251, 255, 0);
+    box-shadow: 0 0 10px rgb(251, 255, 0) ;
 }
 .style-switcher .color-2{
     background: #fa5b0f;
+    box-shadow: 0 0 10px #fa5b0f ;
 }
 .style-switcher .color-3{
-    background: #37b182;
+    background: firebrick;
+    box-shadow: 0 0 10px firebrick ;
 }
 .style-switcher .color-4{
     background: #1854b4;
+    box-shadow: 0 0 10px #1854b4 ;
 }
 .style-switcher .color-5{
     background: #ec1839;
+    box-shadow: 0 0 10px #ec1839 ;
 }
