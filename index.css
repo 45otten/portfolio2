@@ -51,9 +51,9 @@ ul{
     overflow-x: hidden;
     
 }
-/* .hidden{
+.hidden{
     display: none !important;
-} */
+}
 .main-content{
     padding-left: 270px;
     /* border: 2px solid red; */
@@ -510,6 +510,25 @@ h3.my-pro{
     width: 100%;
     }
 }
+
+
+.service-item{
+    color: var(--text-black-900);
+    border: 2px solid var(--skin-color);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0 0 10px 1px !important;
+}
+.service .service-item i{
+    color: var(--skin-color);
+}
+.service .service-item{
+    margin:0 30px 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+    box-shadow: 0 0 5px var(--skin-color);
+}
+
 @media (max-width:991px){
     .about .about-content .edu,
     .about .about-content .exp,
